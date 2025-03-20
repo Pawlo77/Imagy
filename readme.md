@@ -25,4 +25,4 @@ The following filters have been implemented from scratch:
 - Sobel  
 - Vignette  
 
-# [Docs](.docs/docs.pdf)
+# [Docs](./docs/docs.pdf)
