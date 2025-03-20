@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FB072C4F2D8C397B001AECA1 /* SwiftImage in Frameworks */ = {isa = PBXBuildFile; productRef = FB072C4B2D8C397B001AECA1 /* SwiftImage */; };
+		FB760C852D86FFAB001992D7 /* SwiftImage in Frameworks */ = {isa = PBXBuildFile; productRef = FB760C842D86FFAB001992D7 /* SwiftImage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FBDDE04B2D85BE6900921A63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +29,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB072C542D8C397B001AECA1 /* Imagy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imagy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDDE03A2D85BE6800921A63 /* Imagy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imagy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDDE04A2D85BE6900921A63 /* ImagyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDDE0542D85BE6900921A63 /* ImagyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FB072C552D8C397B001AECA1 /* Exceptions for "Imagy" folder in "Imagy copy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Filters/AveragingFilter.swift,
+				Filters/BinaryFilter.swift,
+				Filters/BrightnessFilter.swift,
+				Filters/ContrastFilter.swift,
+				Filters/CustomKernelFilter.swift,
+				Filters/EmbossFilter.swift,
+				Filters/FilmGrainFilter.swift,
+				Filters/GaussianFilter.swift,
+				Filters/GlitchFilter.swift,
+				Filters/GrayscaleFilter.swift,
+				Filters/MosaicFilter.swift,
+				Filters/NegativeFilter.swift,
+				Filters/PosterizeFilter.swift,
+				Filters/RobertsCrossFilter.swift,
+				Filters/SaturationFilter.swift,
+				Filters/SepiaFiler.swift,
+				Filters/SharpeningFilter.swift,
+				Filters/SobelFilter.swift,
+				Filters/VignetteFilter.swift,
+				ImagyApp.swift,
+				Models/Filter.swift,
+				Models/ImageSaver.swift,
+				Models/ModelData.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Views/ContentView.swift,
+				Views/Filters/AveragingFilterView.swift,
+				Views/Filters/BinaryFilterView.swift,
+				Views/Filters/BrightnessFilterView.swift,
+				Views/Filters/ContrastFilterView.swift,
+				Views/Filters/CustomKernelFilterView.swift,
+				Views/Filters/EmbossFilterView.swift,
+				Views/Filters/EmptyFilterView.swift,
+				Views/Filters/FilmGrainFilterView.swift,
+				Views/Filters/FilterPickerView.swift,
+				Views/Filters/FilterSliderView.swift,
+				Views/Filters/FilterView.swift,
+				Views/Filters/GaussianFilterView.swift,
+				Views/Filters/GlitchFilterView.swift,
+				Views/Filters/GrayscaleFilterView.swift,
+				Views/Filters/MosaicFilterView.swift,
+				Views/Filters/NegativeFilterView.swift,
+				Views/Filters/PosterizeFilterView.swift,
+				Views/Filters/RobertsCrossFilterView.swift,
+				Views/Filters/SaturationFilterView.swift,
+				Views/Filters/SepiaFilterVIew.swift,
+				Views/Filters/SharpeningFilterView.swift,
+				Views/Filters/SobelFilterView.swift,
+				Views/Filters/VignetteFilterView.swift,
+				Views/HistogramView.swift,
+				Views/Photo/PhotoPickerView.swift,
+				Views/Photo/PhotoView.swift,
+				Views/ProjectionView.swift,
+				Views/System/BarChartView.swift,
+				Views/System/FullHeightVStack.swift,
+				Views/System/GridView.swift,
+				Views/System/LandingView.swift,
+				Views/System/LogoView.swift,
+				Views/System/SplashView.swift,
+			);
+			target = FB072C4A2D8C397B001AECA1 /* Imagy copy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FBDDE03C2D85BE6800921A63 /* Imagy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FB072C552D8C397B001AECA1 /* Exceptions for "Imagy" folder in "Imagy copy" target */,
+			);
 			path = Imagy;
 			sourceTree = "<group>";
 		};
@@ -48,10 +125,19 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FB072C4E2D8C397B001AECA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB072C4F2D8C397B001AECA1 /* SwiftImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBDDE0372D85BE6800921A63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB760C852D86FFAB001992D7 /* SwiftImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +174,7 @@
 				FBDDE03A2D85BE6800921A63 /* Imagy.app */,
 				FBDDE04A2D85BE6900921A63 /* ImagyTests.xctest */,
 				FBDDE0542D85BE6900921A63 /* ImagyUITests.xctest */,
+				FB072C542D8C397B001AECA1 /* Imagy copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +182,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FB072C4A2D8C397B001AECA1 /* Imagy copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB072C512D8C397B001AECA1 /* Build configuration list for PBXNativeTarget "Imagy copy" */;
+			buildPhases = (
+				FB072C4D2D8C397B001AECA1 /* Sources */,
+				FB072C4E2D8C397B001AECA1 /* Frameworks */,
+				FB072C502D8C397B001AECA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FBDDE03C2D85BE6800921A63 /* Imagy */,
+			);
+			name = "Imagy copy";
+			packageProductDependencies = (
+				FB072C4B2D8C397B001AECA1 /* SwiftImage */,
+			);
+			productName = Imagy;
+			productReference = FB072C542D8C397B001AECA1 /* Imagy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FBDDE0392D85BE6800921A63 /* Imagy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBDDE05E2D85BE6900921A63 /* Build configuration list for PBXNativeTarget "Imagy" */;
@@ -112,6 +222,7 @@
 			);
 			name = Imagy;
 			packageProductDependencies = (
+				FB760C842D86FFAB001992D7 /* SwiftImage */,
 			);
 			productName = Imagy;
 			productReference = FBDDE03A2D85BE6800921A63 /* Imagy.app */;
@@ -195,6 +306,9 @@
 			);
 			mainGroup = FBDDE0312D85BE6800921A63;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FB760C832D86FF71001992D7 /* XCRemoteSwiftPackageReference "swift-image" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FBDDE03B2D85BE6800921A63 /* Products */;
 			projectDirPath = "";
@@ -203,11 +317,19 @@
 				FBDDE0392D85BE6800921A63 /* Imagy */,
 				FBDDE0492D85BE6900921A63 /* ImagyTests */,
 				FBDDE0532D85BE6900921A63 /* ImagyUITests */,
+				FB072C4A2D8C397B001AECA1 /* Imagy copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FB072C502D8C397B001AECA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBDDE0382D85BE6800921A63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +354,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FB072C4D2D8C397B001AECA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBDDE0362D85BE6800921A63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +398,70 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FB072C522D8C397B001AECA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Imagy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W969XB92D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your Photo Library to save images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.pw.Imagy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB072C532D8C397B001AECA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Imagy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W969XB92D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your Photo Library to save images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.edu.pw.Imagy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FBDDE05C2D85BE6900921A63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -393,17 +586,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Imagy/Preview Content\"";
 				DEVELOPMENT_TEAM = 3W969XB92D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your Photo Library to save images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,17 +618,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Imagy/Preview Content\"";
 				DEVELOPMENT_TEAM = 3W969XB92D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your Photo Library to save images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,6 +720,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FB072C512D8C397B001AECA1 /* Build configuration list for PBXNativeTarget "Imagy copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB072C522D8C397B001AECA1 /* Debug */,
+				FB072C532D8C397B001AECA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FBDDE0352D85BE6800921A63 /* Build configuration list for PBXProject "Imagy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -558,6 +766,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB072C4C2D8C397B001AECA1 /* XCRemoteSwiftPackageReference "swift-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koher/swift-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+		FB760C832D86FF71001992D7 /* XCRemoteSwiftPackageReference "swift-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koher/swift-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB072C4B2D8C397B001AECA1 /* SwiftImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB072C4C2D8C397B001AECA1 /* XCRemoteSwiftPackageReference "swift-image" */;
+			productName = SwiftImage;
+		};
+		FB760C842D86FFAB001992D7 /* SwiftImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB760C832D86FF71001992D7 /* XCRemoteSwiftPackageReference "swift-image" */;
+			productName = SwiftImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBDDE0322D85BE6800921A63 /* Project object */;
 }
